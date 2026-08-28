@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://exvacorp.github.io/sitemap.xml
