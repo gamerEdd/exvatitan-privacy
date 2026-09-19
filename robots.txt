@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://gameredd.github.io/exvatitan-privacy/sitemap.xml
