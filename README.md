@@ -67,7 +67,3 @@ SEO web y ASO de Google Play son canales distintos. Esta web está preparada par
 ## Enlace de privacidad
 
 Los enlaces del sitio apuntan explícitamente a `privacy/index.html` para que la Política de Privacidad funcione tanto en GitHub Pages como al abrir el proyecto localmente desde Windows. `privacidad/index.html` queda como alias/redirección a la URL principal de privacidad.
-
-
-## Actualización 2026-09-19
-La web cubre ExvaTitan POS y Finanzas Personales con IA. La política de privacidad incluye rutas visibles y ancladas para solicitar eliminación permanente de cuenta y datos asociados para ambas apps.
