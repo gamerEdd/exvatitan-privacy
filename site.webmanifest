@@ -1,0 +1,16 @@
+{
+  "name": "Exvacorp Studios",
+  "short_name": "Exvacorp",
+  "start_url": "/exvatitan-privacy/",
+  "scope": "/exvatitan-privacy/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0868df",
+  "icons": [
+    {
+      "src": "assets/logo-exvacorp.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
