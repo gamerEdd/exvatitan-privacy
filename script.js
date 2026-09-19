@@ -7,7 +7,9 @@ document.querySelectorAll('.nav nav a').forEach(a=>a.addEventListener('click',()
 // desde el navegador del visitante.
 (async()=>{
   try{
-    const r=await fetch('/exvatitan-privacy/data/playstore.json',{cache:'no-store'}); if(!r.ok) return;
+    const scriptUrl=document.currentScript?.src || new URL('script.js',document.baseURI).href;
+    const dataUrl=new URL('data/playstore.json',scriptUrl);
+    const r=await fetch(dataUrl,{cache:'no-store'}); if(!r.ok) return;
     const d=await r.json();
     document.querySelectorAll('[data-play-package]').forEach(card=>{
       const a=d.apps?.[card.dataset.playPackage]; if(!a)return;
